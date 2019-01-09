@@ -20,3 +20,10 @@ Dependency list:
 2 - Firebase: Used firebase, because of it build in log in and real time database features. Even tho i couldnt finish the database part in time the security and implementation of the firebase features are great.  
 3 - MaterialUI: Great UX design library, i prefer MaterialU, because of its clear examples and easy to override CSS and Themes.  
 4 - React-Stars: To be fair my plan was to build the start by myself, but when i checked in google this repository has over 4000 weekly downloads and it took me less time to implement it.  
+
+
+### If i had a little more time: 
+
+1 - Redux: Redux is the greatest tool created for React. It allows you to have all the components state in one place, the issue is that Redux usually takes a long time to set up and in this time window i decided to go without. Most of the bugs i encountered could have been avoided if i had Redux on my side.  
+
+2 - Real time database comments: My initiall plan was to have the comments in the firebase realtime database, so everyone could see your comments. Due to few bumps here and there didn't have time for it.
