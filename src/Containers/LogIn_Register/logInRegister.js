@@ -18,11 +18,8 @@ class LogInRegister extends React.Component {
 
   handleClose = () => {
     this.setState({ open: false });
-    /**
-     * This is the worst way to deal with a problem, but due time issues it had to be done
-     * **/
-    //TODO Add Redux To The Project
-    window.location.reload();
+
+
   };
 
   handleLogIn = () => {
@@ -32,7 +29,9 @@ class LogInRegister extends React.Component {
 
     /**
      * Catches imput errors by the user like badly formatted email etc...
+     * This is the worst way to deal with a problem, but due time issues it had to be done
      * **/
+    //TODO Add Redux To The Project
     promise
       .catch(e => {alert(e.message); window.location.reload();});
 
@@ -57,7 +56,9 @@ class LogInRegister extends React.Component {
 
     /**
      * Catches imput errors by the user like badly formatted email etc...
+     * This is the worst way to deal with a problem, but due time issues it had to be done
      * **/
+    //TODO Add Redux To The Project
     promise
       .catch(e => {alert(e.message); window.location.reload();});
 
